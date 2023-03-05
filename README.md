@@ -3,6 +3,7 @@
 - [About the Virtual Server Container](#about-the-virtual-server-container)
   - [Build First](#build-first)
   - [Start the container](#start-the-container)
+  - [Login with root](#login-with-root)
   - [After Start](#after-start)
   - [Stop Container](#stop-container)
   - [Remove Container](#remove-container)
@@ -30,6 +31,21 @@ docker compose up --build -d
 ```bash
 docker compose up -d
 ```
+
+## Login with root
+
+You cannot login root with SSh. You need to use `exec` caommand to login. Run this:
+
+```bash
+docker exec -it debian bash
+```
+
+- `-i`, `--interactive`: Keep STDIN open even if not attached
+- `-t`, `--tty`: Allocate a pseudo-TTY
+- `debian`: Container name.
+- `bash`: Command.
+
+> You will learn Docker in this semester from NYCUSDC.
 
 ## After Start
 
