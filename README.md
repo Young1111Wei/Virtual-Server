@@ -39,7 +39,7 @@ You can use SSH login into container.
 ssh debian@localhost
 ```
 
-> The default password is `debiban`.
+> The default password is `debian`.
 
 ## Stop Container
 
