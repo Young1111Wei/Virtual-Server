@@ -23,6 +23,8 @@ docker compose up --build -d
 
 > Please check your `22` and `80` ports. If they are occupied, the container will start failing.
 
+[How to Check Which Ports Are Open on a Windows 10 PC](https://www.alphr.com/how-to-check-which-ports-open-windows-10-pc/)
+
 ## Start the container
 
 > This command does not build or rebuild the image. If you deploy first or update the dockerfile,
